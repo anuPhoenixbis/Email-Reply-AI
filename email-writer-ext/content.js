@@ -61,7 +61,7 @@ const injectButton = () => {
 
             const emailContent = getEmailContent();
 
-            const response = await fetch('http://localhost:8080/email/generate', {
+            const response = await fetch('https://email-reply-ai-backend.onrender.com/email/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

@@ -23,7 +23,7 @@ function App() {
     try {
 
       // Backend API will go here, get the request from the backend using axios
-      const response = await axios.post('http://localhost:8080/email/generate', {
+      const response = await axios.post('https://email-reply-ai-backend.onrender.com/email/generate', {
         emailContent,
         tone
       })
