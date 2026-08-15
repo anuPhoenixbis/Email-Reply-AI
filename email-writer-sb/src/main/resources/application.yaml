@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: email-writer-sb
+
+gemini:
+  url: ${GEMINI_URL}
+  apikey: ${GEMINI_APIKEY}
